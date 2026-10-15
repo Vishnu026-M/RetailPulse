@@ -1,6 +1,9 @@
+
 fastapi
 uvicorn
-
 pandas
 numpy
 python-multipart
+joblib
+scikit-learn
+openpyxl

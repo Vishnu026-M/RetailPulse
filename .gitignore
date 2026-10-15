@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Python and ML generated files
+.ipynb_checkpoints/
+*.joblib
+*.pkl
+
+# Node.js
+node_modules/
+frontend/dist/
+
+# Local datasets and generated data
+data/raw/
+data/processed/
+
+# Generated reports and logs
+reports/generated/
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
